@@ -53,19 +53,19 @@
 			<div class="banner2">
 				<ul>
 					<li>
-						<p>2019-11-11<br>女鞋新款</p>
+						<p>2019-12-12<br>女鞋新款</p>
 					</li>
 					<li>
-						<p>2019-11-11<br>女鞋新款</p>
+						<p>2019-12-12<br>女鞋新款</p>
 					</li>
 					<li>
-						<p>2019-11-11<br>女鞋新款</p>
+						<p>2019-12-12<br>女鞋新款</p>
 					</li>
 					<li>
-						<p>2019-11-11<br>女鞋新款</p>
+						<p>2019-12-12<br>女鞋新款</p>
 					</li>
 					<li>
-						<p>2019-11-11<br>女鞋新款</p>
+						<p>2019-12-12<br>女鞋新款</p>
 					</li>
 				</ul>
 				<div class="imgbox2">
@@ -246,37 +246,37 @@
 	<script src="js/list.js"></script>
 	<script src="js/style.js"></script>
 	<script>
-		$("#public").load("http://localhost/shoes/public.html")
+		$("#public").load("http://localhost/weibo/public.html")
 		$(".up").children("ul").children("li").hover(function() {
 			$(this).addClass("active").siblings().removeClass("active");
 			$(".up").children("dl").removeClass("active").eq($(this).index()).addClass("active");
 		})
 		new List({
-			url: "http://localhost/shoes/data/goods.json",
+			url: "http://localhost/weibo/data/goods.json",
 			cont: document.querySelector("#dl1"),
 			min: 0,
 			max: 10
 		})
 		new List({
-			url: "http://localhost/shoes/data/goods.json",
+			url: "http://localhost/weibo/data/goods.json",
 			cont: document.querySelector("#dl2"),
 			min: 1,
 			max: 11
 		})
 		new List({
-			url: "http://localhost/shoes/data/goods.json",
+			url: "http://localhost/weibo/data/goods.json",
 			cont: document.querySelector("#dl3"),
 			min: 3,
 			max: 13
 		})
 		new List({
-			url: "http://localhost/shoes/data/goods.json",
+			url: "http://localhost/weibo/data/goods.json",
 			cont: document.querySelector("#dl4"),
 			min: 2,
 			max: 12
 		})
 		new List({
-			url: "http://localhost/shoes/data/goods.json",
+			url: "http://localhost/weibo/data/goods.json",
 			cont: document.querySelector("#dl5"),
 			min: 3,
 			max: 13
@@ -286,19 +286,19 @@
 			$(".cen").children("dl").removeClass("active").eq($(this).index() - 1).addClass("active");
 		})
 		new List({
-			url: "http://localhost/shoes/data/goods.json",
+			url: "http://localhost/weibo/data/goods.json",
 			cont: document.querySelector("#dl6"),
 			min: 0,
 			max: 10
 		});
 		new List({
-			url: "http://localhost/shoes/data/goods.json",
+			url: "http://localhost/weibo/data/goods.json",
 			cont: document.querySelector("#dl7"),
 			min: 1,
 			max: 11
 		});
 		new List({
-			url: "http://localhost/shoes/data/goods.json",
+			url: "http://localhost/weibo/data/goods.json",
 			cont: document.querySelector("#dl8"),
 			min: 3,
 			max: 13

@@ -3,7 +3,7 @@
 #top{height:32px;border-bottom:1px solid #ccc;}
 #top ul{float: left;}
 #top ul li{float: left;width: 60px;height: 32px;font:12px/32px "";text-align: center;}
-#top ul li a{display:black;color: #666666;border-right:1px solid # 666;}
+#top ul li a{display:black;color: #666666;border-right:1px solid #666;}
 #top .right{float:right;}
 #top .right a{display:block;font: 12px/32px "";color: #666666;width: 80px;float:left;}
 #top .right a i{display:block;background: url(http://img.xpf.cc/logo/ico/ico1.gif) no-repeat 0px -988px;width: 102px;height: 24px;padding-left: 32px;margin-top: 3px;}

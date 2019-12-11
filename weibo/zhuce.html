@@ -5,7 +5,7 @@
 		<title>会员注册</title>
 		<link rel="stylesheet" href="css/public.css"/>
 		<link rel="stylesheet" href="css/style.css"/>
-		<link rel="stylesheet" href="css/register.css"/>
+		<link rel="stylesheet" href="css/zhuce.css"/>
 	</head>
 	
 	<body>
@@ -14,8 +14,8 @@
 				<ul class="clear">
 					<li><a href="#">付款方式</a></li>
 					<li><a href="#">会员政策</a></li>
-					<li><a href="register.html">免费注册</a></li>
-					<li><a href="login.html">会员登录</a></li>
+					<li><a href="zhuce.html">免费注册</a></li>
+					<li><a href="denglu.html">会员登录</a></li>
 					<li><a href="#">QQ登录</a></li>
 				</ul>
 				<div class="right">
@@ -33,7 +33,7 @@
 		<section id="banner" class="margin">
 			<div class="title">
 				<a href="#" class="active">买家会员注册</a>
-				<a href="login.html">会员登录</a>
+				<a href="denglu.html">会员登录</a>
 			</div>
 			<form class="reg">
 				<table>
@@ -102,9 +102,9 @@
 	<script src="libs/jquery.validate.messages_zh.js"></script>
 	<script src="js/ajax.js"></script>
 	<script src="js/cookie.js"></script>
-	<script src="js/register.js"></script>
+	<script src="js/zhuce.js"></script>
 	<script>
-		$("#public").load("http://localhost/shoes/public.html nav")
+		$("#public").load("http://localhost/weibo/public.html nav")
 		$('form').validate();
 		new Register({
 			tbody:document.querySelector("tbody")
