@@ -45,7 +45,7 @@ class Car {
 			}
 		}
 		str += `<tr class="sum">
-						<td colspan="7">总计：<em></em></td>
+						<td colspan="7"><em></em></td>
 					</tr>`
 		this.tbody.innerHTML = str;
 	}

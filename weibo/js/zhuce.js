@@ -41,7 +41,7 @@ class Register {
 					user: this.user,
 					pass: this.pass
 				});
-				window.location.href = "login.html"
+				window.location.href = "denglu.html"
 			}
 		}
 		setCookie("member", JSON.stringify(this.member));
