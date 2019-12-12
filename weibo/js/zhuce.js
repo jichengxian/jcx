@@ -24,7 +24,7 @@ class Register {
 				user: this.user,
 				pass: this.pass
 			})
-			window.location.href = "login.html"
+			window.location.href = "denglu.html"
 		} else {
 			var onoff = true; //true表示是新用户
 			for (var i = 0; i < this.member.length; i++) {
